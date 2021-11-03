@@ -45,17 +45,3 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-@media screen and (min 320px) {
-  .kontejner {
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-}
-
-.salat {
-  background-image: url(images/salat.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}

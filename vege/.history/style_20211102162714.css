@@ -1,12 +1,7 @@
 /* nejsme vcerejsi, pouzivame moderni box model */
-html {
-  box-sizing: border-box;
-}
-*,
-::after,
-::before {
-  box-sizing: inherit;
-}
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
 
 /* -------------------------------------------------- */
 
@@ -22,40 +17,23 @@ středně široké obrazovky:
 }
 */
 
+
 body {
-  margin: 0;
-  font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .paticka {
-  text-align: center;
-  font-size: 14px;
-  color: silver;
+    text-align: center;
+    font-size: 14px;
+    color: silver;
 }
 
 .paticka a {
-  color: silver;
+    color: silver;
 }
+
 
 /* ------------------------------- */
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
-
-.kontejner {
-  display: flex;
-  flex-direction: column;
-}
-
-@media screen and (min 320px) {
-  .kontejner {
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-}
-
-.salat {
-  background-image: url(images/salat.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
