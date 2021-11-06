@@ -43,7 +43,6 @@ body {
 
 .kontejner {
   display: flex;
-  flex-direction: column;
   max-width: 1200;
   margin: 0 auto;
 }
@@ -105,97 +104,46 @@ p {
   .kontejner {
     display: flex;
     flex-direction: column;
+    padding: 0.5rem;
   }
 
-  h1 {
+  .h1 {
     font-weight: 800;
     font-size: 1.75rem;
-    position: relative;
-    top: 130px;
-    left: 30px;
   }
-
-  h2 {
+  .h2 {
     font-weight: 800;
     font-size: 1.2rem;
   }
-
-  .popis {
-    display: flex;
-    flex-direction: wrap;
-    justify-content: space-between;
-    margin-bottom: 250px;
-  }
-
   .salat {
-    height: 200px;
-    margin-bottom: 1px;
+    min-height: 200px;
   }
-
   .chlebicek,
   .cizrna,
   .burger,
   .tacos {
-    height: 90px;
+    min-height: 90px;
     font-family: "Raleway", sans-serif;
-    padding: 0.5rem;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin: 1px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-
-  .chlebicek {
-    order: -2;
   }
 }
 
 @media screen and (min-width: 600px) {
   .kontejner {
-    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-  }
-
-  h1 {
-    font-weight: 800;
-    font-size: 2rem;
-    position: relative;
-    top: 130px;
-    left: 30px;
-  }
-
-  h2 {
-    font-weight: 800;
-    font-size: 1.5rem;
-  }
-
-  .popis {
-    display: flex;
-    flex-direction: wrap;
-    justify-content: space-between;
-    margin-bottom: 400px;
+    padding: 1.25rem;
   }
 
   .salat {
     width: 100vw;
-    height: 250px;
-    position: relative;
-  }
-
-  .chlebicek {
-    order: 3;
+    min-height: 250px;
   }
 
   .chlebicek,
   .cizrna,
   .burger,
   .tacos {
-    height: 150px;
-    width: 49.7%;
-    margin: 1px;
+    min-height: 150px;
   }
 }
 
@@ -204,40 +152,21 @@ p {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-  }
-
-  h1 {
-    font-weight: 800;
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-weight: 800;
-    font-size: 1.75rem;
-  }
-  .popis {
-    display: flex;
-    flex-direction: wrap;
-    justify-content: space-between;
-    margin-bottom: 300px;
+    padding: 1.25rem;
   }
 
   .salat {
     flex-basis: 400px;
-    height: 400px;
+    min-height: 400px;
   }
 
   .chlebicek,
   .cizrna,
   .burger,
   .tacos {
-    height: 200px;
-    width: 400px;
+    min-height: 200px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 1px;
-    margin-top: 1px;
-    margin-bottom: 1px;
   }
 }

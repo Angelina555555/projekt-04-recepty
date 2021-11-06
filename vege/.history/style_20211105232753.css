@@ -141,14 +141,6 @@ p {
     padding: 0.5rem;
     margin-top: 1px;
     margin-bottom: 1px;
-    margin: 1px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-
-  .chlebicek {
-    order: -2;
   }
 }
 
@@ -195,7 +187,7 @@ p {
   .tacos {
     height: 150px;
     width: 49.7%;
-    margin: 1px;
+    margin-right: 1px;
   }
 }
 

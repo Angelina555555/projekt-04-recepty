@@ -118,6 +118,9 @@ p {
   h2 {
     font-weight: 800;
     font-size: 1.2rem;
+    position: relative;
+    top: 130px;
+    left: 30px;
   }
 
   .popis {
@@ -141,14 +144,6 @@ p {
     padding: 0.5rem;
     margin-top: 1px;
     margin-bottom: 1px;
-    margin: 1px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-
-  .chlebicek {
-    order: -2;
   }
 }
 
@@ -185,16 +180,13 @@ p {
     position: relative;
   }
 
-  .chlebicek {
-    order: 3;
-  }
-
   .chlebicek,
   .cizrna,
   .burger,
   .tacos {
     height: 150px;
     width: 49.7%;
+    padding: 1.25rem;
     margin: 1px;
   }
 }
@@ -237,7 +229,9 @@ p {
     flex-wrap: wrap;
     flex-direction: row;
     margin: 1px;
-    margin-top: 1px;
-    margin-bottom: 1px;
   }
+}
+
+.tacos {
+  order: 1;
 }

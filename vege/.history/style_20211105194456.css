@@ -43,7 +43,6 @@ body {
 
 .kontejner {
   display: flex;
-  flex-direction: column;
   max-width: 1200;
   margin: 0 auto;
 }
@@ -118,6 +117,9 @@ p {
   h2 {
     font-weight: 800;
     font-size: 1.2rem;
+    position: relative;
+    top: 130px;
+    left: 30px;
   }
 
   .popis {
@@ -128,7 +130,7 @@ p {
   }
 
   .salat {
-    height: 200px;
+    min-height: 200px;
     margin-bottom: 1px;
   }
 
@@ -136,19 +138,11 @@ p {
   .cizrna,
   .burger,
   .tacos {
-    height: 90px;
+    min-height: 90px;
     font-family: "Raleway", sans-serif;
     padding: 0.5rem;
     margin-top: 1px;
     margin-bottom: 1px;
-    margin: 1px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-
-  .chlebicek {
-    order: -2;
   }
 }
 
@@ -176,26 +170,25 @@ p {
     display: flex;
     flex-direction: wrap;
     justify-content: space-between;
-    margin-bottom: 400px;
+    margin-bottom: 250px;
   }
 
   .salat {
     width: 100vw;
-    height: 250px;
+    min-height: 250px;
     position: relative;
-  }
-
-  .chlebicek {
-    order: 3;
   }
 
   .chlebicek,
   .cizrna,
   .burger,
   .tacos {
-    height: 150px;
-    width: 49.7%;
-    margin: 1px;
+    min-height: 150px;
+    width: 49.99%;
+    padding: 1.25rem;
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
   }
 }
 
@@ -209,6 +202,9 @@ p {
   h1 {
     font-weight: 800;
     font-size: 3rem;
+    position: relative;
+    top: 130px;
+    left: 30px;
   }
 
   h2 {
@@ -224,20 +220,17 @@ p {
 
   .salat {
     flex-basis: 400px;
-    height: 400px;
+    min-height: 400px;
   }
 
   .chlebicek,
   .cizrna,
   .burger,
   .tacos {
-    height: 200px;
-    width: 400px;
+    min-height: 200px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin: 1px;
-    margin-top: 1px;
-    margin-bottom: 1px;
   }
 }

@@ -142,9 +142,6 @@ p {
     margin-top: 1px;
     margin-bottom: 1px;
     margin: 1px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
   }
 
   .chlebicek {

@@ -1,0 +1,104 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+/* -------------------------------------------------- */
+
+/*
+pouzivame mobile first pristup
+tj. vychozi styly mimo media query jsou pro nejmensi mobilni zarizeni
+s pribyvajici sirkou pridavame media query pro
+středně široké obrazovky:
+@media (min-width: 480px) {
+}
+široké obrazovky
+@media (min-width: 860px) {
+}
+*/
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.paticka {
+  text-align: center;
+  font-size: 14px;
+  color: silver;
+}
+
+.paticka a {
+  color: silver;
+}
+
+/* ------------------------------- */
+/* ----- DOLE BUDE TVOJE CSS ----- */
+/* ------------------------------- */
+
+.kontejner {
+  display: flex;
+  flex-direction: column;
+}
+
+.salat {
+  background-image: url("images/salat.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.chlebicek {
+  background-image: url("images/chlebicek.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.tacos {
+  background-image: url("images/tacos.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 150px 30px;
+  color: white;
+}
+
+.cizrna {
+  background-image: url("images/cizrna.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 150px 30px;
+  color: white;
+}
+
+.burger {
+  background-image: url("images/burger.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 150px 30px;
+  color: white;
+}
+
+h1 {
+  font-weight: 800;
+}
+@media screen and (min-width: 320px) {
+  .kontejner {
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0, 5rem;
+  }
+}
+
+@media screen {
+}
