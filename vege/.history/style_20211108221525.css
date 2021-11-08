@@ -162,7 +162,7 @@ body {
   }
 
   .salat {
-    order: 1;
+    order: -5;
     height: 200px;
     width: 100vw;
     margin-bottom: 1px;
@@ -226,7 +226,6 @@ body {
     display: inline-block;
     padding-right: 20px;
     margin-right: 20px;
-    margin-bottom: 100px;
   }
 
   div.popis {
@@ -241,11 +240,10 @@ body {
     padding-left: 20px;
     margin-left: 20px;
     padding-top: 20px;
-    margin-top: 5px;
+    margin-top: 20px;
   }
 
   .salat {
-    order: -3;
     width: 100vw;
     height: 250px;
     position: relative;
@@ -313,7 +311,7 @@ body {
     padding-left: 20px;
     margin-left: 20px;
     padding-top: 20px;
-    margin-top: 5px;
+    margin-top: 20px;
   }
 
   div.komentare {
