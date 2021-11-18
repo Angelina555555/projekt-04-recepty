@@ -41,9 +41,9 @@ body {
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
 
-h2,
-h3,
-p {
+.h2,
+.h3,
+.p {
   margin: 0;
   color: white;
 }
@@ -79,7 +79,7 @@ p {
   border-bottom: 1px solid white;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-self: space-between;
   padding: 0.5rem;
 }
 
@@ -107,7 +107,6 @@ h3 {
   }
   .recept {
     padding: 1.25rem;
-    border: 1px solid white;
   }
   .kontejner-maly {
     display: flex;
@@ -117,7 +116,7 @@ h3 {
   }
   .prvini,
   .druhy {
-    border: 1px solid white;
+    border-right: 1px solid white;
   }
 }
 
@@ -125,7 +124,7 @@ h3 {
   .hlavni {
     min-height: 400px;
     flex-basis: 33.3%;
-    border: 1px solid white;
+    border-right: 1px solid white;
   }
   .kontejner-maly {
     flex-basis: 66.6%;
@@ -136,6 +135,5 @@ h3 {
 
   .recepty {
     display: flex;
-    border: 1px solid white;
   }
 }

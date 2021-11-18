@@ -107,7 +107,6 @@ h3 {
   }
   .recept {
     padding: 1.25rem;
-    border: 1px solid white;
   }
   .kontejner-maly {
     display: flex;
@@ -136,6 +135,5 @@ h3 {
 
   .recepty {
     display: flex;
-    border: 1px solid white;
   }
 }

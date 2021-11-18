@@ -41,9 +41,9 @@ body {
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
 
-h2,
-h3,
-p {
+.h2,
+.h3,
+.p {
   margin: 0;
   color: white;
 }
@@ -79,63 +79,6 @@ p {
   border-bottom: 1px solid white;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-self: space-between;
   padding: 0.5rem;
-}
-
-.maly {
-  min-height: 90px;
-}
-
-h2,
-h3 {
-  order: 2;
-}
-
-.kontejner {
-  display: flex;
-  justify-content: space-between;
-}
-
-@media (min-width: 480px) {
-  .hlavni {
-    min-height: 250px;
-  }
-  .maly {
-    min-height: 150px;
-    width: 50%;
-  }
-  .recept {
-    padding: 1.25rem;
-    border: 1px solid white;
-  }
-  .kontejner-maly {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 400px;
-  }
-  .prvini,
-  .druhy {
-    border: 1px solid white;
-  }
-}
-
-@media (min-width: 860px) {
-  .hlavni {
-    min-height: 400px;
-    flex-basis: 33.3%;
-    border: 1px solid white;
-  }
-  .kontejner-maly {
-    flex-basis: 66.6%;
-  }
-  .maly {
-    min-height: 200px;
-  }
-
-  .recepty {
-    display: flex;
-    border: 1px solid white;
-  }
 }
