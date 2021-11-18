@@ -281,12 +281,15 @@ body {
     font-size: 0.8rem;
     font-weight: 400;
     font-family: "sourse sans pro", sans-serif;
-  }
+  
 
   div.komentare {
     font-size: 0.8rem;
     font-weight: 400;
     font-family: "sourse sans pro", sans-serif;
+    display: inline-block;
+    padding-right: 20px;
+    margin-right: 20px;
   }
 
   .salat {
@@ -314,13 +317,6 @@ body {
   }
 
   .cizrna {
-    order: 3;
-  }
-
-  .tacos {
-    order: 2;
-  }
-  .burger {
     order: 3;
   }
 }

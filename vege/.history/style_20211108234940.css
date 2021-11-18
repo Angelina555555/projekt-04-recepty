@@ -97,11 +97,12 @@ body {
 
 .nazevsalat {
   font-family: "Raleway", sans-serif;
+  position: relative;
   padding-left: 5px;
   padding-bottom: 5px;
   margin-left: 5px;
   margin-bottom: 5px;
-  margin-top: 500px;
+  margin-top: 50px;
 }
 
 .nazev {
@@ -116,6 +117,7 @@ body {
 .nazevsalat {
   font-weight: 800;
   font-size: 1.75rem;
+  position: relative;
   top: 130px;
   left: 30px;
   padding-left: 5px;
@@ -139,12 +141,24 @@ body {
   font-size: 0.8rem;
   font-weight: 400;
   font-family: "sourse sans pro", sans-serif;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  display: inline-block;
+  padding-left: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .komentare {
   font-size: 0.8rem;
   font-weight: 400;
   font-family: "sourse sans pro", sans-serif;
+  display: inline-block;
+  padding-right: 20px;
+  margin-right: 20px;
 }
 
 .chlebicek,
@@ -152,7 +166,6 @@ body {
 .burger,
 .tacos {
   height: 90px;
-  width: 100vw;
   font-family: "Raleway", sans-serif;
   padding: 0.5rem;
   margin-top: 1px;
@@ -281,12 +294,24 @@ body {
     font-size: 0.8rem;
     font-weight: 400;
     font-family: "sourse sans pro", sans-serif;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    display: inline-block;
+    padding-left: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-top: 5px;
   }
 
   div.komentare {
     font-size: 0.8rem;
     font-weight: 400;
     font-family: "sourse sans pro", sans-serif;
+    display: inline-block;
+    padding-right: 20px;
+    margin-right: 20px;
   }
 
   .salat {
@@ -314,13 +339,6 @@ body {
   }
 
   .cizrna {
-    order: 3;
-  }
-
-  .tacos {
-    order: 2;
-  }
-  .burger {
     order: 3;
   }
 }

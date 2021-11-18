@@ -320,7 +320,4 @@ body {
   .tacos {
     order: 2;
   }
-  .burger {
-    order: 3;
-  }
 }
